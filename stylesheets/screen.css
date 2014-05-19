@@ -70,27 +70,32 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* Breakpoints */
 /* Fonts */
 /* Colors */
-/* line 10, ../sass/screen.scss */
+@font-face {
+  font-family: 'Source Serif Pro Regular';
+  src: url("/fonts/SourceSerifPro-Regular.ttf.woff");
+}
+
+/* line 15, ../sass/screen.scss */
 html {
   font-size: 12px;
 }
 
-/* line 14, ../sass/screen.scss */
+/* line 19, ../sass/screen.scss */
 body {
-  background: url(../img/background.jpg);
+  background: url(/img/background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  font-family: "Source Serif Pro";
+  font-family: "Source Serif Pro Regular";
   color: #efefef;
 }
 
-/* line 23, ../sass/screen.scss */
+/* line 28, ../sass/screen.scss */
 a {
   color: #e4d6bb;
 }
 
-/* line 27, ../sass/screen.scss */
+/* line 32, ../sass/screen.scss */
 h1 {
   font-family: "futura-pt", sans-serif;
   font-size: 3rem;
@@ -100,10 +105,10 @@ h1 {
   text-transform: uppercase;
 }
 
-/* line 36, ../sass/screen.scss */
+/* line 41, ../sass/screen.scss */
 .search {
   display: none;
-  background-image: url(../img/iconmonstr-magnifier-icon.svg);
+  background-image: url(/img/iconmonstr-magnifier-icon.svg);
   background-position: left;
   background-repeat: no-repeat;
   font-family: "source-code-pro", sans-serif;
@@ -116,7 +121,7 @@ h1 {
   transition: all 2s;
 }
 @media screen and (min-width: 720px) {
-  /* line 36, ../sass/screen.scss */
+  /* line 41, ../sass/screen.scss */
   .search {
     display: block;
     float: right;
@@ -126,7 +131,7 @@ h1 {
   }
 }
 @media screen and (min-width: 880px) {
-  /* line 36, ../sass/screen.scss */
+  /* line 41, ../sass/screen.scss */
   .search {
     border-color: #efefef;
     border-style: solid;
@@ -138,12 +143,12 @@ h1 {
 }
 
 @media screen and (max-width: 880px) {
-  /* line 66, ../sass/screen.scss */
+  /* line 71, ../sass/screen.scss */
   .search-shown {
     background-color: rgba(0, 0, 0, 0.5);
     width: 15rem;
     height: 2rem;
-    background-image: url(../img/iconmonstr-magnifier-icon.svg);
+    background-image: url(/img/iconmonstr-magnifier-icon.svg);
     background-position: left;
     background-repeat: no-repeat;
     font-family: "source-code-pro", sans-serif;
@@ -157,13 +162,13 @@ h1 {
   }
 }
 
-/* line 85, ../sass/screen.scss */
+/* line 90, ../sass/screen.scss */
 .site-header {
   padding-left: 2rem;
   padding-top: 4rem;
   padding-bottom: 2rem;
 }
-/* line 89, ../sass/screen.scss */
+/* line 94, ../sass/screen.scss */
 .site-header .title {
   font-family: "futura-pt", sans-serif;
   font-size: 4rem;
@@ -173,12 +178,12 @@ h1 {
   padding-bottom: 1rem;
   display: block;
 }
-/* line 99, ../sass/screen.scss */
+/* line 104, ../sass/screen.scss */
 .site-header .title a {
   text-decoration: none;
   color: #efefef;
 }
-/* line 103, ../sass/screen.scss */
+/* line 108, ../sass/screen.scss */
 .site-header .tagline {
   display: block;
   font-family: "source-code-pro", sans-serif;
@@ -188,37 +193,37 @@ h1 {
   text-transform: lowercase;
 }
 
-/* line 113, ../sass/screen.scss */
+/* line 118, ../sass/screen.scss */
 #creative-cloud-icon {
   position: absolute;
   top: 2rem;
   right: 1rem;
-  background-image: url(../img/creative-cloud-icon.svg);
+  background-image: url(/img/creative-cloud-icon.svg);
   background-repeat: no-repeat;
   width: 100px;
   height: 100px;
 }
 @media screen and (min-width: 480px) {
-  /* line 113, ../sass/screen.scss */
+  /* line 118, ../sass/screen.scss */
   #creative-cloud-icon {
     top: -.5rem;
   }
 }
 @media screen and (min-width: 720px) {
-  /* line 113, ../sass/screen.scss */
+  /* line 118, ../sass/screen.scss */
   #creative-cloud-icon {
     top: 2rem;
   }
 }
 
-/* line 129, ../sass/screen.scss */
+/* line 134, ../sass/screen.scss */
 .blog {
   padding-left: 2rem;
   width: 90%;
   float: none;
 }
 @media screen and (min-width: 480px) {
-  /* line 129, ../sass/screen.scss */
+  /* line 134, ../sass/screen.scss */
   .blog {
     width: 80%;
     float: none;
@@ -226,7 +231,7 @@ h1 {
   }
 }
 @media screen and (min-width: 720px) {
-  /* line 129, ../sass/screen.scss */
+  /* line 134, ../sass/screen.scss */
   .blog {
     width: 70%;
     float: left;
@@ -234,26 +239,26 @@ h1 {
   }
 }
 @media screen and (min-width: 880px) {
-  /* line 129, ../sass/screen.scss */
+  /* line 134, ../sass/screen.scss */
   .blog {
     padding-left: 5rem;
     width: 60%;
   }
 }
 @media screen and (min-width: 1160px) {
-  /* line 129, ../sass/screen.scss */
+  /* line 134, ../sass/screen.scss */
   .blog {
     width: 70%;
     padding-left: 8rem;
   }
 }
 
-/* line 153, ../sass/screen.scss */
+/* line 158, ../sass/screen.scss */
 .home h1:not(:first-child) {
   padding-top: 8rem;
 }
 
-/* line 157, ../sass/screen.scss */
+/* line 162, ../sass/screen.scss */
 .sidebar {
   clear: both;
   width: 100%;
@@ -264,7 +269,7 @@ h1 {
   text-transform: lowercase;
 }
 @media screen and (min-width: 480px) {
-  /* line 157, ../sass/screen.scss */
+  /* line 162, ../sass/screen.scss */
   .sidebar {
     clear: none;
     position: fixed;
@@ -276,13 +281,13 @@ h1 {
   }
 }
 @media screen and (min-width: 720px) {
-  /* line 157, ../sass/screen.scss */
+  /* line 162, ../sass/screen.scss */
   .sidebar {
     padding-left: 2.5rem;
   }
 }
 @media screen and (min-width: 880px) {
-  /* line 157, ../sass/screen.scss */
+  /* line 162, ../sass/screen.scss */
   .sidebar {
     position: relative;
     top: 0;
@@ -294,77 +299,77 @@ h1 {
   }
 }
 @media screen and (min-width: 1160px) {
-  /* line 157, ../sass/screen.scss */
+  /* line 162, ../sass/screen.scss */
   .sidebar {
     width: 20%;
   }
 }
-/* line 189, ../sass/screen.scss */
+/* line 194, ../sass/screen.scss */
 .sidebar li {
   display: inline;
 }
 @media screen and (min-width: 480px) {
-  /* line 189, ../sass/screen.scss */
+  /* line 194, ../sass/screen.scss */
   .sidebar li {
     display: block;
   }
 }
-/* line 195, ../sass/screen.scss */
+/* line 200, ../sass/screen.scss */
 .sidebar li a {
   color: #efefef;
   text-decoration: none;
 }
-/* line 199, ../sass/screen.scss */
+/* line 204, ../sass/screen.scss */
 .sidebar ul {
   padding-top: 2rem;
   line-height: 2rem;
 }
-/* line 203, ../sass/screen.scss */
+/* line 208, ../sass/screen.scss */
 .sidebar .about {
   padding-top: 2rem;
   clear: right;
 }
-/* line 206, ../sass/screen.scss */
+/* line 211, ../sass/screen.scss */
 .sidebar .about a {
   color: #efefef;
   text-decoration: none;
 }
 
-/* line 213, ../sass/screen.scss */
+/* line 218, ../sass/screen.scss */
 .contact-item {
   display: none;
 }
 @media screen and (min-width: 880px) {
-  /* line 213, ../sass/screen.scss */
+  /* line 218, ../sass/screen.scss */
   .contact-item {
     line-height: 30px;
     display: inline-block;
   }
 }
 
-/* line 221, ../sass/screen.scss */
+/* line 226, ../sass/screen.scss */
 .post-link {
   text-transform: uppercase;
   text-decoration: none;
 }
 
-/* line 226, ../sass/screen.scss */
+/* line 231, ../sass/screen.scss */
 .post-content {
-  font-family: "Source Serif Pro";
+  font-family: "Source Serif Pro Regular";
   font-size: 1rem;
   font-weight: 300;
   line-height: 2.067;
   color: #efefef;
 }
 
-/* line 234, ../sass/screen.scss */
+/* line 239, ../sass/screen.scss */
 .post-date {
   padding-top: 1.5rem;
   float: right;
   font-size: 1.25rem;
 }
 
-/* line 240, ../sass/screen.scss */
+/* line 245, ../sass/screen.scss */
 .site-footer {
   width: 100%;
   bottom: 0;
@@ -374,27 +379,32 @@ h1 {
 }
 
 /* Post */
-/* line 250, ../sass/screen.scss */
+/* line 255, ../sass/screen.scss */
 .meta {
   color: #a99e89;
   font-weight: 600;
   font-size: 1.25rem;
-  font-family: "Source Serif Pro";
+  font-family: "Source Serif Pro Regular";
   line-height: 2rem;
 }
 
-/* line 258, ../sass/screen.scss */
+/* line 263, ../sass/screen.scss */
 .post-header {
   padding-bottom: 1rem;
 }
 
-/* line 262, ../sass/screen.scss */
-.center {
+/* line 267, ../sass/screen.scss */
+.post-image {
   text-align: center;
+  width: 100%;
+}
+/* line 270, ../sass/screen.scss */
+.post-image img {
+  width: 80%;
 }
 
 /** SVG ICons **/
-/* line 267, ../sass/screen.scss */
+/* line 276, ../sass/screen.scss */
 .icon {
   vertical-align: middle;
   fill: #efefef;
@@ -407,7 +417,7 @@ h1 {
   padding-top: 1rem;
 }
 @media screen and (min-width: 480px) {
-  /* line 267, ../sass/screen.scss */
+  /* line 276, ../sass/screen.scss */
   .icon {
     -webkit-transform: scale(1, 1);
     -moz-transform: scale(1, 1);

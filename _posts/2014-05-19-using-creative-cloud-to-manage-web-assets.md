@@ -12,7 +12,7 @@ Because I was storing it in the Creative Cloud, it kept both copies. I could eas
 
 So that's exactly what I did. I pulled out the same image using the Project Parfait web interface, and overwrote my inital file. I also ran the original through [imageoptim](http://imageoptim.com/) to see what impact it had. What was incredibly handy was that I could go to the Creative Cloud web UI and restore the original whenever I wanted to run a new optimization test. 
 
-{:.center}
+{:.post-image}
 [![Creative Cloud Versions](/img/posts/creative-cloud-versions-thumbnail.png)](/img/posts/creative-cloud-versions.png)
 
 And because file sync would kick in every time I restored a new version, git would pick up the changed file making it easy to commit the changes.

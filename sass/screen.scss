@@ -7,12 +7,17 @@
 @import "compass/css3/transform";
 @import "variables";
 
+@font-face {
+  font-family: 'Source Serif Pro Regular';
+  src: url('/fonts/SourceSerifPro-Regular.ttf.woff');
+}
+
 html {
     font-size: 12px;
 }
 
 body {
-    background: url(../img/background.jpg);
+    background: url(/img/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -35,7 +40,7 @@ h1 {
 
 .search {
     display: none;
-    background-image: url(../img/iconmonstr-magnifier-icon.svg);
+    background-image: url(/img/iconmonstr-magnifier-icon.svg);
     background-position: left;
     background-repeat: no-repeat;
     font-family: $tagline-font;
@@ -68,7 +73,7 @@ h1 {
         background-color: rgba(0,0,0,0.5);
         width: 15rem;
         height: 2rem;
-        background-image: url(../img/iconmonstr-magnifier-icon.svg);
+        background-image: url(/img/iconmonstr-magnifier-icon.svg);
         background-position: left;
         background-repeat: no-repeat;
         font-family: $tagline-font;
@@ -114,7 +119,7 @@ h1 {
     position: absolute;
     top: 2rem;
     right: 1rem;
-    background-image: url(../img/creative-cloud-icon.svg);
+    background-image: url(/img/creative-cloud-icon.svg);
     background-repeat: no-repeat;
     width: 100px;
     height: 100px;
@@ -259,8 +264,12 @@ h1 {
     padding-bottom: 1rem;
 }
 
-.center {
+.post-image {
     text-align: center;
+    width: 100%;
+    img {
+        width: 80%;
+    }
 }
 
 /** SVG ICons **/

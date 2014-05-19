@@ -4,6 +4,7 @@ title: About
 permalink: /about/
 ---
 
+{:.post-image}
 ![Getting ready to climb](/img/ryan-about.jpg)
 
 I'm currently a product manager for Adobe working on web tools. Prior to that I spent 5 years as an evangelist on Adobe's platform team covering a variety of products. Even further back I worked for a couple of startups and developed rich Internet applications for the [Wharton School](http://wharton.upenn.edu/). I also had a [blog for ZDNet](http://www.zdnet.com/blog/stewart/) way back once upon a time.
