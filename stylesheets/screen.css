@@ -1,0 +1,410 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* Breakpoints */
+/* Fonts */
+/* Colors */
+/* line 10, ../sass/screen.scss */
+html {
+  font-size: 12px;
+}
+
+/* line 14, ../sass/screen.scss */
+body {
+  background: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Source Serif Pro";
+  color: #efefef;
+}
+
+/* line 23, ../sass/screen.scss */
+a {
+  color: #e4d6bb;
+}
+
+/* line 27, ../sass/screen.scss */
+h1 {
+  font-family: "Futura PT";
+  font-size: 3rem;
+  font-weight: 300;
+  padding-bottom: 1.5rem;
+  color: #e4d6bb;
+  text-transform: uppercase;
+}
+
+/* line 36, ../sass/screen.scss */
+.search {
+  display: none;
+  background-image: url(../img/iconmonstr-magnifier-icon.svg);
+  background-position: left;
+  background-repeat: no-repeat;
+  font-family: "Source Code Pro";
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #efefef;
+  padding-left: 3rem;
+  /* Transition */
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+@media screen and (min-width: 720px) {
+  /* line 36, ../sass/screen.scss */
+  .search {
+    display: block;
+    float: right;
+    background-color: rgba(0, 0, 0, 0);
+    border-width: 0px;
+    width: 0px;
+  }
+}
+@media screen and (min-width: 880px) {
+  /* line 36, ../sass/screen.scss */
+  .search {
+    border-color: #efefef;
+    border-style: solid;
+    border-width: 3px;
+    background-color: rgba(239, 239, 239, 0);
+    width: 15rem;
+    height: 2rem;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  /* line 66, ../sass/screen.scss */
+  .search-shown {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 15rem;
+    height: 2rem;
+    background-image: url(../img/iconmonstr-magnifier-icon.svg);
+    background-position: left;
+    background-repeat: no-repeat;
+    font-family: "Source Code Pro";
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #efefef;
+    padding-left: 3rem;
+    border-color: #efefef;
+    border-style: solid;
+    border-width: 1px;
+  }
+}
+
+/* line 85, ../sass/screen.scss */
+.site-header {
+  padding-left: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+/* line 89, ../sass/screen.scss */
+.site-header .title {
+  font-family: "Futura PT";
+  font-size: 4rem;
+  color: #efefef;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding-bottom: 1rem;
+  display: block;
+}
+/* line 99, ../sass/screen.scss */
+.site-header .title a {
+  text-decoration: none;
+  color: #efefef;
+}
+/* line 103, ../sass/screen.scss */
+.site-header .tagline {
+  display: block;
+  font-family: "Source Code Pro";
+  font-size: 1rem;
+  font-weight: 600;
+  color: #efefef;
+  text-transform: lowercase;
+}
+
+/* line 113, ../sass/screen.scss */
+#creative-cloud-icon {
+  position: absolute;
+  top: 2rem;
+  right: 1rem;
+  background-image: url(../img/creative-cloud-icon.svg);
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+}
+@media screen and (min-width: 480px) {
+  /* line 113, ../sass/screen.scss */
+  #creative-cloud-icon {
+    top: -.5rem;
+  }
+}
+@media screen and (min-width: 720px) {
+  /* line 113, ../sass/screen.scss */
+  #creative-cloud-icon {
+    top: 2rem;
+  }
+}
+
+/* line 129, ../sass/screen.scss */
+.blog {
+  padding-left: 2rem;
+  width: 90%;
+  float: none;
+}
+@media screen and (min-width: 480px) {
+  /* line 129, ../sass/screen.scss */
+  .blog {
+    width: 80%;
+    float: none;
+    padding-left: 4rem;
+  }
+}
+@media screen and (min-width: 720px) {
+  /* line 129, ../sass/screen.scss */
+  .blog {
+    width: 70%;
+    float: left;
+    padding-left: 8rem;
+  }
+}
+@media screen and (min-width: 880px) {
+  /* line 129, ../sass/screen.scss */
+  .blog {
+    padding-left: 5rem;
+    width: 60%;
+  }
+}
+@media screen and (min-width: 1160px) {
+  /* line 129, ../sass/screen.scss */
+  .blog {
+    width: 70%;
+    padding-left: 8rem;
+  }
+}
+
+/* line 153, ../sass/screen.scss */
+.sidebar {
+  clear: both;
+  width: 100%;
+  text-align: center;
+  font-family: "Source Code Pro";
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: lowercase;
+}
+@media screen and (min-width: 480px) {
+  /* line 153, ../sass/screen.scss */
+  .sidebar {
+    clear: none;
+    position: fixed;
+    top: 15rem;
+    display: block;
+    float: left;
+    padding-left: .5rem;
+    text-align: left;
+  }
+}
+@media screen and (min-width: 720px) {
+  /* line 153, ../sass/screen.scss */
+  .sidebar {
+    padding-left: 2.5rem;
+  }
+}
+@media screen and (min-width: 880px) {
+  /* line 153, ../sass/screen.scss */
+  .sidebar {
+    position: relative;
+    top: 0;
+    width: 30%;
+    padding-left: 0rem;
+    padding-right: 1.5rem;
+    float: right;
+    text-align: right;
+  }
+}
+@media screen and (min-width: 1160px) {
+  /* line 153, ../sass/screen.scss */
+  .sidebar {
+    width: 20%;
+  }
+}
+/* line 185, ../sass/screen.scss */
+.sidebar li {
+  display: inline;
+}
+@media screen and (min-width: 480px) {
+  /* line 185, ../sass/screen.scss */
+  .sidebar li {
+    display: block;
+  }
+}
+/* line 191, ../sass/screen.scss */
+.sidebar li a {
+  color: #efefef;
+  text-decoration: none;
+}
+/* line 195, ../sass/screen.scss */
+.sidebar ul {
+  padding-top: 2rem;
+  line-height: 2rem;
+}
+/* line 199, ../sass/screen.scss */
+.sidebar .about {
+  padding-top: 2rem;
+  clear: right;
+}
+/* line 202, ../sass/screen.scss */
+.sidebar .about a {
+  color: #efefef;
+  text-decoration: none;
+}
+
+/* line 209, ../sass/screen.scss */
+.contact-item {
+  display: none;
+}
+@media screen and (min-width: 880px) {
+  /* line 209, ../sass/screen.scss */
+  .contact-item {
+    line-height: 30px;
+    display: inline-block;
+  }
+}
+
+/* line 217, ../sass/screen.scss */
+.post-link {
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* line 222, ../sass/screen.scss */
+.post-content {
+  font-family: "Source Serif Pro";
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 2.067;
+  color: #efefef;
+}
+
+/* line 230, ../sass/screen.scss */
+.post-date {
+  padding-top: 1.5rem;
+  float: right;
+  font-size: 1.25rem;
+}
+
+/* line 236, ../sass/screen.scss */
+.site-footer {
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  padding-top: 2rem;
+  clear: both;
+}
+
+/* Post */
+/* line 246, ../sass/screen.scss */
+.meta {
+  color: #a99e89;
+  font-weight: 600;
+  font-size: 1.25rem;
+  font-family: "Source Serif Pro";
+  line-height: 2rem;
+}
+
+/* line 254, ../sass/screen.scss */
+.post-header {
+  padding-bottom: 1rem;
+}
+
+/** SVG ICons **/
+/* line 259, ../sass/screen.scss */
+.icon {
+  vertical-align: middle;
+  fill: #efefef;
+  -webkit-transform: scale(1.3, 1.3);
+  -moz-transform: scale(1.3, 1.3);
+  -ms-transform: scale(1.3, 1.3);
+  -o-transform: scale(1.3, 1.3);
+  transform: scale(1.3, 1.3);
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+@media screen and (min-width: 480px) {
+  /* line 259, ../sass/screen.scss */
+  .icon {
+    -webkit-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    transform: scale(1, 1);
+    padding-left: 0;
+    padding-top: 0;
+  }
+}

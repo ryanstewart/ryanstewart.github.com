@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+    <body>
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="blog">
+      {{ content }}
+      </div>
+      <div class="sidebar">
+        <!--<input type="text" id="search" class="search" placeholder="search" />-->
+        <div class="about"><a href="{{ "/about/" | prepend: site.baseurl }}"><span class="contact-item">About Ryan</span> <span class="contact-icon">{% include about-icon.html %}</a></span></div>
+        <ul class="contact-list">
+            <li class="list-item"><a href="mailto:ryan@adobe.com"><span class="contact-item">ryan@adobe.com</span> <span class="contact-icon">{% include envelope-icon.html %}</span></a></li>
+            <li><a href="http://twitter.com/ryanstewart"><span class="contact-item">@ryanstewart</span> <span class="contact-icon">{% include twitter-icon.html %}</span></a></li>
+            <li><a href="https://github.com/ryanstewart"><span class="contact-item">ryanstewart</span> <span class="contact-icon">{% include github-icon.html %}</span></a></li>
+            <li><a href="https://plus.google.com/+RyanStewart82/posts"><span class="contact-item">ryanstewart82</span> <span class="contact-icon">{% include google-plus-icon.html %}</span></a></li>
+            <li><a href="https://untappd.com/user/ryanstewart"><span class="contact-item">ryanstewart</span> <span class="contact-icon">{% include untappd-icon.html %}</span></a></li>
+            <li><a href="https://www.behance.net/ryanstewart82"><span class="contact-item">ryanstewart82</span> <span class="contact-icon">{% include behance-icon.html %}</span></a></li>
+            <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}"><span class="contact-item">RSS Feed</span> <span class="contact-icon">{% include rss-icon.html %}</span></a></li>            
+        </ul>
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+    </body>
+</html>
