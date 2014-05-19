@@ -383,8 +383,13 @@ h1 {
   padding-bottom: 1rem;
 }
 
+/* line 258, ../sass/screen.scss */
+.center {
+  text-align: center;
+}
+
 /** SVG ICons **/
-/* line 259, ../sass/screen.scss */
+/* line 263, ../sass/screen.scss */
 .icon {
   vertical-align: middle;
   fill: #efefef;
@@ -397,7 +402,7 @@ h1 {
   padding-top: 1rem;
 }
 @media screen and (min-width: 480px) {
-  /* line 259, ../sass/screen.scss */
+  /* line 263, ../sass/screen.scss */
   .icon {
     -webkit-transform: scale(1, 1);
     -moz-transform: scale(1, 1);
