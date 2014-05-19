@@ -5,6 +5,7 @@
 
 @import "compass/reset";
 @import "compass/css3/transform";
+@import "compass/css3/background-size";
 @import "variables";
 
 @font-face {
@@ -20,7 +21,7 @@ html {
 body {
     background: url(/img/background.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    @include background-size(cover);
     background-attachment: fixed;
     font-family: $body-font;
     color: $white;

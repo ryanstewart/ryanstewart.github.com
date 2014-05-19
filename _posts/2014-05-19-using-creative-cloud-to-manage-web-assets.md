@@ -4,13 +4,13 @@ title:  "Using the Creative Cloud to Manage Web Assets"
 date:   2014-05-18 1:02:32
 categories: creative-cloud web
 ---
-In putting this site together I've been trying to dogfood as much as possible. So I did the initial site design in a PSD, used our design comp to code tool to pull out information, and am storing the entire thing in the Creative Cloud. So far it's been a pretty smooth experience. And one thing I've discovered is that the Creative Cloud's file Activity tab is incredibly helpful for managing web assets.
+In putting this site together I've been trying to dogfood as much as possible. So I did the initial site design in a PSD, used our [design comp to code tool](https://www.youtube.com/watch?v=xAP8CSMEwZ8) to pull out information, and am storing the entire thing in the Creative Cloud. So far it's been a pretty smooth experience. And one thing I've discovered is that the Creative Cloud's file Activity tab is incredibly helpful for managing web assets.
 
-You'll notice this site has a gigantic image as the background. When I initially extracted that asset, it was 1.3 megs. Not ideal for web download. So I took it into Photoshop's save for web, cranked the quality down to zero, and overwrote my inital file. 
+You'll notice this site has a gigantic image as the background. When I initially extracted that asset, it was 1.3 megs. Not ideal for web download. So I took it into Photoshop's save for web, cranked the quality down to zero which got the file size down to 60k, and overwrote my inital file.
 
-Because I was storing it in the Creative Cloud, it kept both copies. I could easily compare the sizes, and I could switch back and forth between them to see the quality. This gave me an idea. Couldn't I test other optimization techniques and compare all of them?
+Because I was storing it in the Creative Cloud, it kept both copies. I could easily compare the sizes (easy, 60k beats 1.3 megs), and I could switch back and forth between them to see the quality. This gave me an idea. Couldn't I test other optimization techniques and compare all of them?
 
-So that's exactly what I did. I pulled out the same image using the Project Parfait web interface, and overwrote my inital file. I also ran the original through [imageoptim](http://imageoptim.com/) to see what impact it had. What was incredibly handy was that I could go to the Creative Cloud web UI and restore the original whenever I wanted to run a new optimization test. 
+So that's exactly what I did. I pulled out the same image using the Project Parfait web interface, and overwrote my inital file (a larger 300k even with quality set to zero). I also ran the original through [imageoptim](http://imageoptim.com/) to see what impact it had (got me down to 43k). What was incredibly handy was that I could go to the Creative Cloud web UI and restore the original whenever I wanted to run a new optimization test. 
 
 {:.post-image}
 [![Creative Cloud Versions](/img/posts/creative-cloud-versions-thumbnail.png)](/img/posts/creative-cloud-versions.png)

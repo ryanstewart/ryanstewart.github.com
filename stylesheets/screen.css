@@ -75,27 +75,30 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   src: url("/fonts/SourceSerifPro-Regular.ttf.woff") format("woff"), url("/fonts/SourceSerifPro-Regular.ttf") format("truetype");
 }
 
-/* line 16, ../sass/screen.scss */
+/* line 17, ../sass/screen.scss */
 html {
   font-size: 12px;
 }
 
-/* line 20, ../sass/screen.scss */
+/* line 21, ../sass/screen.scss */
 body {
   background: url(/img/background.jpg);
   background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   background-attachment: fixed;
   font-family: "Source Serif Pro Regular";
   color: #efefef;
 }
 
-/* line 29, ../sass/screen.scss */
+/* line 30, ../sass/screen.scss */
 a {
   color: #e4d6bb;
 }
 
-/* line 33, ../sass/screen.scss */
+/* line 34, ../sass/screen.scss */
 h1 {
   font-family: "futura-pt", sans-serif;
   font-size: 3rem;
@@ -105,12 +108,12 @@ h1 {
   text-transform: uppercase;
 }
 
-/* line 42, ../sass/screen.scss */
+/* line 43, ../sass/screen.scss */
 p {
   padding-bottom: .5rem;
 }
 
-/* line 46, ../sass/screen.scss */
+/* line 47, ../sass/screen.scss */
 .search {
   display: none;
   background-image: url(/img/iconmonstr-magnifier-icon.svg);
@@ -126,7 +129,7 @@ p {
   transition: all 2s;
 }
 @media screen and (min-width: 720px) {
-  /* line 46, ../sass/screen.scss */
+  /* line 47, ../sass/screen.scss */
   .search {
     display: block;
     float: right;
@@ -136,7 +139,7 @@ p {
   }
 }
 @media screen and (min-width: 880px) {
-  /* line 46, ../sass/screen.scss */
+  /* line 47, ../sass/screen.scss */
   .search {
     border-color: #efefef;
     border-style: solid;
@@ -148,7 +151,7 @@ p {
 }
 
 @media screen and (max-width: 880px) {
-  /* line 76, ../sass/screen.scss */
+  /* line 77, ../sass/screen.scss */
   .search-shown {
     background-color: rgba(0, 0, 0, 0.5);
     width: 15rem;
@@ -167,13 +170,13 @@ p {
   }
 }
 
-/* line 95, ../sass/screen.scss */
+/* line 96, ../sass/screen.scss */
 .site-header {
   padding-left: 2rem;
   padding-top: 4rem;
   padding-bottom: 2rem;
 }
-/* line 99, ../sass/screen.scss */
+/* line 100, ../sass/screen.scss */
 .site-header .title {
   font-family: "futura-pt", sans-serif;
   font-size: 4rem;
@@ -183,12 +186,12 @@ p {
   padding-bottom: 1rem;
   display: block;
 }
-/* line 109, ../sass/screen.scss */
+/* line 110, ../sass/screen.scss */
 .site-header .title a {
   text-decoration: none;
   color: #efefef;
 }
-/* line 113, ../sass/screen.scss */
+/* line 114, ../sass/screen.scss */
 .site-header .tagline {
   display: block;
   font-family: "source-code-pro", sans-serif;
@@ -198,7 +201,7 @@ p {
   text-transform: lowercase;
 }
 
-/* line 123, ../sass/screen.scss */
+/* line 124, ../sass/screen.scss */
 #creative-cloud-icon {
   position: absolute;
   top: 2rem;
@@ -209,26 +212,26 @@ p {
   height: 100px;
 }
 @media screen and (min-width: 480px) {
-  /* line 123, ../sass/screen.scss */
+  /* line 124, ../sass/screen.scss */
   #creative-cloud-icon {
     top: -.5rem;
   }
 }
 @media screen and (min-width: 720px) {
-  /* line 123, ../sass/screen.scss */
+  /* line 124, ../sass/screen.scss */
   #creative-cloud-icon {
     top: 2rem;
   }
 }
 
-/* line 139, ../sass/screen.scss */
+/* line 140, ../sass/screen.scss */
 .blog {
   padding-left: 2rem;
   width: 90%;
   float: none;
 }
 @media screen and (min-width: 480px) {
-  /* line 139, ../sass/screen.scss */
+  /* line 140, ../sass/screen.scss */
   .blog {
     width: 80%;
     float: none;
@@ -236,7 +239,7 @@ p {
   }
 }
 @media screen and (min-width: 720px) {
-  /* line 139, ../sass/screen.scss */
+  /* line 140, ../sass/screen.scss */
   .blog {
     width: 70%;
     float: left;
@@ -244,26 +247,26 @@ p {
   }
 }
 @media screen and (min-width: 880px) {
-  /* line 139, ../sass/screen.scss */
+  /* line 140, ../sass/screen.scss */
   .blog {
     padding-left: 5rem;
     width: 60%;
   }
 }
 @media screen and (min-width: 1160px) {
-  /* line 139, ../sass/screen.scss */
+  /* line 140, ../sass/screen.scss */
   .blog {
     width: 70%;
     padding-left: 8rem;
   }
 }
 
-/* line 163, ../sass/screen.scss */
+/* line 164, ../sass/screen.scss */
 .home h1:not(:first-child) {
   padding-top: 8rem;
 }
 
-/* line 167, ../sass/screen.scss */
+/* line 168, ../sass/screen.scss */
 .sidebar {
   clear: both;
   width: 100%;
@@ -274,7 +277,7 @@ p {
   text-transform: lowercase;
 }
 @media screen and (min-width: 480px) {
-  /* line 167, ../sass/screen.scss */
+  /* line 168, ../sass/screen.scss */
   .sidebar {
     clear: none;
     position: fixed;
@@ -286,13 +289,13 @@ p {
   }
 }
 @media screen and (min-width: 720px) {
-  /* line 167, ../sass/screen.scss */
+  /* line 168, ../sass/screen.scss */
   .sidebar {
     padding-left: 2.5rem;
   }
 }
 @media screen and (min-width: 880px) {
-  /* line 167, ../sass/screen.scss */
+  /* line 168, ../sass/screen.scss */
   .sidebar {
     position: relative;
     top: 0;
@@ -304,61 +307,61 @@ p {
   }
 }
 @media screen and (min-width: 1160px) {
-  /* line 167, ../sass/screen.scss */
+  /* line 168, ../sass/screen.scss */
   .sidebar {
     width: 20%;
   }
 }
-/* line 199, ../sass/screen.scss */
+/* line 200, ../sass/screen.scss */
 .sidebar li {
   display: inline;
 }
 @media screen and (min-width: 480px) {
-  /* line 199, ../sass/screen.scss */
+  /* line 200, ../sass/screen.scss */
   .sidebar li {
     display: block;
   }
 }
-/* line 205, ../sass/screen.scss */
+/* line 206, ../sass/screen.scss */
 .sidebar li a {
   color: #efefef;
   text-decoration: none;
 }
-/* line 209, ../sass/screen.scss */
+/* line 210, ../sass/screen.scss */
 .sidebar ul {
   padding-top: 2rem;
   line-height: 2rem;
 }
-/* line 213, ../sass/screen.scss */
+/* line 214, ../sass/screen.scss */
 .sidebar .about {
   padding-top: 2rem;
   clear: right;
 }
-/* line 216, ../sass/screen.scss */
+/* line 217, ../sass/screen.scss */
 .sidebar .about a {
   color: #efefef;
   text-decoration: none;
 }
 
-/* line 223, ../sass/screen.scss */
+/* line 224, ../sass/screen.scss */
 .contact-item {
   display: none;
 }
 @media screen and (min-width: 880px) {
-  /* line 223, ../sass/screen.scss */
+  /* line 224, ../sass/screen.scss */
   .contact-item {
     line-height: 30px;
     display: inline-block;
   }
 }
 
-/* line 231, ../sass/screen.scss */
+/* line 232, ../sass/screen.scss */
 .post-link {
   text-transform: uppercase;
   text-decoration: none;
 }
 
-/* line 236, ../sass/screen.scss */
+/* line 237, ../sass/screen.scss */
 .post-content {
   font-family: "Source Serif Pro Regular";
   font-size: 1rem;
@@ -367,14 +370,14 @@ p {
   color: #efefef;
 }
 
-/* line 244, ../sass/screen.scss */
+/* line 245, ../sass/screen.scss */
 .post-date {
   padding-top: 1.5rem;
   float: right;
   font-size: 1.25rem;
 }
 
-/* line 250, ../sass/screen.scss */
+/* line 251, ../sass/screen.scss */
 .site-footer {
   width: 100%;
   bottom: 0;
@@ -384,7 +387,7 @@ p {
 }
 
 /* Post */
-/* line 260, ../sass/screen.scss */
+/* line 261, ../sass/screen.scss */
 .meta {
   color: #a99e89;
   font-weight: 600;
@@ -393,23 +396,23 @@ p {
   line-height: 2rem;
 }
 
-/* line 268, ../sass/screen.scss */
+/* line 269, ../sass/screen.scss */
 .post-header {
   padding-bottom: 1rem;
 }
 
-/* line 272, ../sass/screen.scss */
+/* line 273, ../sass/screen.scss */
 .post-image {
   text-align: center;
   width: 100%;
 }
-/* line 275, ../sass/screen.scss */
+/* line 276, ../sass/screen.scss */
 .post-image img {
   width: 80%;
 }
 
 /** SVG ICons **/
-/* line 281, ../sass/screen.scss */
+/* line 282, ../sass/screen.scss */
 .icon {
   vertical-align: middle;
   fill: #efefef;
@@ -422,7 +425,7 @@ p {
   padding-top: 1rem;
 }
 @media screen and (min-width: 480px) {
-  /* line 281, ../sass/screen.scss */
+  /* line 282, ../sass/screen.scss */
   .icon {
     -webkit-transform: scale(1, 1);
     -moz-transform: scale(1, 1);
