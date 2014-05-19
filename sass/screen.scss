@@ -9,7 +9,8 @@
 
 @font-face {
   font-family: 'Source Serif Pro Regular';
-  src: url('/fonts/SourceSerifPro-Regular.ttf.woff');
+  src:  url('/fonts/SourceSerifPro-Regular.ttf.woff') format('woff'),
+        url('/fonts/SourceSerifPro-Regular.ttf')  format('truetype');
 }
 
 html {
@@ -36,6 +37,10 @@ h1 {
     padding-bottom: 1.5rem;
     color: $link-color;
     text-transform: uppercase;
+}
+
+p {
+    padding-bottom: .5rem;
 }
 
 .search {
@@ -232,7 +237,7 @@ h1 {
     font-family: $body-font;
     font-size: 1rem;
     font-weight: 300;
-    line-height: 2.067;
+    line-height: 2.5;
     color: $white;
 }
 
