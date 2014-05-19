@@ -2,7 +2,7 @@
 layout: post
 title:  "Using the Creative Cloud to Manage Web Assets"
 date:   2014-05-18 1:02:32
-categories: site
+categories: creative-cloud web
 ---
 In putting this site together I've been trying to dogfood as much as possible. So I did the inital site design in a PSD, used our design comp to code tool to pull out information, and am storing the entire thing in the Creative Cloud. So far it's been a pretty smooth experience. And one thing I've discovered is that the Creative Cloud's file Activity tab is incredibly helpful for managing web assets.
 
