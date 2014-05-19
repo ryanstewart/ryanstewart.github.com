@@ -150,6 +150,10 @@ h1 {
     }
 }
 
+.home h1:not(:first-child) {
+    padding-top: 8rem;
+}
+
 .sidebar {
     clear:both;
     width: 100%;
