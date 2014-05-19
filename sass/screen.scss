@@ -19,7 +19,8 @@ html {
 }
 
 body {
-    background: url(/img/background.jpg);
+    background-image: url(/img/background.jpg);
+    background-color: #0481ad;
     background-repeat: no-repeat;
     @include background-size(cover);
     background-attachment: fixed;

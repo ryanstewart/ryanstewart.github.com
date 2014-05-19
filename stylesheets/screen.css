@@ -82,7 +82,8 @@ html {
 
 /* line 21, ../sass/screen.scss */
 body {
-  background: url(/img/background.jpg);
+  background-image: url(/img/background.jpg);
+  background-color: #0481ad;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -93,12 +94,12 @@ body {
   color: #efefef;
 }
 
-/* line 30, ../sass/screen.scss */
+/* line 31, ../sass/screen.scss */
 a {
   color: #e4d6bb;
 }
 
-/* line 34, ../sass/screen.scss */
+/* line 35, ../sass/screen.scss */
 h1 {
   font-family: "futura-pt", sans-serif;
   font-size: 3rem;
@@ -108,12 +109,12 @@ h1 {
   text-transform: uppercase;
 }
 
-/* line 43, ../sass/screen.scss */
+/* line 44, ../sass/screen.scss */
 p {
   padding-bottom: .5rem;
 }
 
-/* line 47, ../sass/screen.scss */
+/* line 48, ../sass/screen.scss */
 .search {
   display: none;
   background-image: url(/img/iconmonstr-magnifier-icon.svg);
@@ -129,7 +130,7 @@ p {
   transition: all 2s;
 }
 @media screen and (min-width: 720px) {
-  /* line 47, ../sass/screen.scss */
+  /* line 48, ../sass/screen.scss */
   .search {
     display: block;
     float: right;
@@ -139,7 +140,7 @@ p {
   }
 }
 @media screen and (min-width: 880px) {
-  /* line 47, ../sass/screen.scss */
+  /* line 48, ../sass/screen.scss */
   .search {
     border-color: #efefef;
     border-style: solid;
@@ -151,7 +152,7 @@ p {
 }
 
 @media screen and (max-width: 880px) {
-  /* line 77, ../sass/screen.scss */
+  /* line 78, ../sass/screen.scss */
   .search-shown {
     background-color: rgba(0, 0, 0, 0.5);
     width: 15rem;
@@ -170,13 +171,13 @@ p {
   }
 }
 
-/* line 96, ../sass/screen.scss */
+/* line 97, ../sass/screen.scss */
 .site-header {
   padding-left: 2rem;
   padding-top: 4rem;
   padding-bottom: 2rem;
 }
-/* line 100, ../sass/screen.scss */
+/* line 101, ../sass/screen.scss */
 .site-header .title {
   font-family: "futura-pt", sans-serif;
   font-size: 4rem;
@@ -186,12 +187,12 @@ p {
   padding-bottom: 1rem;
   display: block;
 }
-/* line 110, ../sass/screen.scss */
+/* line 111, ../sass/screen.scss */
 .site-header .title a {
   text-decoration: none;
   color: #efefef;
 }
-/* line 114, ../sass/screen.scss */
+/* line 115, ../sass/screen.scss */
 .site-header .tagline {
   display: block;
   font-family: "source-code-pro", sans-serif;
@@ -201,7 +202,7 @@ p {
   text-transform: lowercase;
 }
 
-/* line 124, ../sass/screen.scss */
+/* line 125, ../sass/screen.scss */
 #creative-cloud-icon {
   position: absolute;
   top: 2rem;
@@ -212,26 +213,26 @@ p {
   height: 100px;
 }
 @media screen and (min-width: 480px) {
-  /* line 124, ../sass/screen.scss */
+  /* line 125, ../sass/screen.scss */
   #creative-cloud-icon {
     top: -.5rem;
   }
 }
 @media screen and (min-width: 720px) {
-  /* line 124, ../sass/screen.scss */
+  /* line 125, ../sass/screen.scss */
   #creative-cloud-icon {
     top: 2rem;
   }
 }
 
-/* line 140, ../sass/screen.scss */
+/* line 141, ../sass/screen.scss */
 .blog {
   padding-left: 2rem;
   width: 90%;
   float: none;
 }
 @media screen and (min-width: 480px) {
-  /* line 140, ../sass/screen.scss */
+  /* line 141, ../sass/screen.scss */
   .blog {
     width: 80%;
     float: none;
@@ -239,7 +240,7 @@ p {
   }
 }
 @media screen and (min-width: 720px) {
-  /* line 140, ../sass/screen.scss */
+  /* line 141, ../sass/screen.scss */
   .blog {
     width: 70%;
     float: left;
@@ -247,26 +248,26 @@ p {
   }
 }
 @media screen and (min-width: 880px) {
-  /* line 140, ../sass/screen.scss */
+  /* line 141, ../sass/screen.scss */
   .blog {
     padding-left: 5rem;
     width: 60%;
   }
 }
 @media screen and (min-width: 1160px) {
-  /* line 140, ../sass/screen.scss */
+  /* line 141, ../sass/screen.scss */
   .blog {
     width: 70%;
     padding-left: 8rem;
   }
 }
 
-/* line 164, ../sass/screen.scss */
+/* line 165, ../sass/screen.scss */
 .home h1:not(:first-child) {
   padding-top: 8rem;
 }
 
-/* line 168, ../sass/screen.scss */
+/* line 169, ../sass/screen.scss */
 .sidebar {
   clear: both;
   width: 100%;
@@ -277,7 +278,7 @@ p {
   text-transform: lowercase;
 }
 @media screen and (min-width: 480px) {
-  /* line 168, ../sass/screen.scss */
+  /* line 169, ../sass/screen.scss */
   .sidebar {
     clear: none;
     position: fixed;
@@ -289,13 +290,13 @@ p {
   }
 }
 @media screen and (min-width: 720px) {
-  /* line 168, ../sass/screen.scss */
+  /* line 169, ../sass/screen.scss */
   .sidebar {
     padding-left: 2.5rem;
   }
 }
 @media screen and (min-width: 880px) {
-  /* line 168, ../sass/screen.scss */
+  /* line 169, ../sass/screen.scss */
   .sidebar {
     position: relative;
     top: 0;
@@ -307,61 +308,61 @@ p {
   }
 }
 @media screen and (min-width: 1160px) {
-  /* line 168, ../sass/screen.scss */
+  /* line 169, ../sass/screen.scss */
   .sidebar {
     width: 20%;
   }
 }
-/* line 200, ../sass/screen.scss */
+/* line 201, ../sass/screen.scss */
 .sidebar li {
   display: inline;
 }
 @media screen and (min-width: 480px) {
-  /* line 200, ../sass/screen.scss */
+  /* line 201, ../sass/screen.scss */
   .sidebar li {
     display: block;
   }
 }
-/* line 206, ../sass/screen.scss */
+/* line 207, ../sass/screen.scss */
 .sidebar li a {
   color: #efefef;
   text-decoration: none;
 }
-/* line 210, ../sass/screen.scss */
+/* line 211, ../sass/screen.scss */
 .sidebar ul {
   padding-top: 2rem;
   line-height: 2rem;
 }
-/* line 214, ../sass/screen.scss */
+/* line 215, ../sass/screen.scss */
 .sidebar .about {
   padding-top: 2rem;
   clear: right;
 }
-/* line 217, ../sass/screen.scss */
+/* line 218, ../sass/screen.scss */
 .sidebar .about a {
   color: #efefef;
   text-decoration: none;
 }
 
-/* line 224, ../sass/screen.scss */
+/* line 225, ../sass/screen.scss */
 .contact-item {
   display: none;
 }
 @media screen and (min-width: 880px) {
-  /* line 224, ../sass/screen.scss */
+  /* line 225, ../sass/screen.scss */
   .contact-item {
     line-height: 30px;
     display: inline-block;
   }
 }
 
-/* line 232, ../sass/screen.scss */
+/* line 233, ../sass/screen.scss */
 .post-link {
   text-transform: uppercase;
   text-decoration: none;
 }
 
-/* line 237, ../sass/screen.scss */
+/* line 238, ../sass/screen.scss */
 .post-content {
   font-family: "Source Serif Pro Regular";
   font-size: 1rem;
@@ -370,14 +371,14 @@ p {
   color: #efefef;
 }
 
-/* line 245, ../sass/screen.scss */
+/* line 246, ../sass/screen.scss */
 .post-date {
   padding-top: 1.5rem;
   float: right;
   font-size: 1.25rem;
 }
 
-/* line 251, ../sass/screen.scss */
+/* line 252, ../sass/screen.scss */
 .site-footer {
   width: 100%;
   bottom: 0;
@@ -387,7 +388,7 @@ p {
 }
 
 /* Post */
-/* line 261, ../sass/screen.scss */
+/* line 262, ../sass/screen.scss */
 .meta {
   color: #a99e89;
   font-weight: 600;
@@ -396,23 +397,23 @@ p {
   line-height: 2rem;
 }
 
-/* line 269, ../sass/screen.scss */
+/* line 270, ../sass/screen.scss */
 .post-header {
   padding-bottom: 1rem;
 }
 
-/* line 273, ../sass/screen.scss */
+/* line 274, ../sass/screen.scss */
 .post-image {
   text-align: center;
   width: 100%;
 }
-/* line 276, ../sass/screen.scss */
+/* line 277, ../sass/screen.scss */
 .post-image img {
   width: 80%;
 }
 
 /** SVG ICons **/
-/* line 282, ../sass/screen.scss */
+/* line 283, ../sass/screen.scss */
 .icon {
   vertical-align: middle;
   fill: #efefef;
@@ -425,7 +426,7 @@ p {
   padding-top: 1rem;
 }
 @media screen and (min-width: 480px) {
-  /* line 282, ../sass/screen.scss */
+  /* line 283, ../sass/screen.scss */
   .icon {
     -webkit-transform: scale(1, 1);
     -moz-transform: scale(1, 1);
