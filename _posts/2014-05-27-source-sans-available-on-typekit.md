@@ -7,7 +7,7 @@ categories: site
 According to the Typekit blog, the newest open source font from Adobe, Source Serif Pro, is [available via Typekit](http://blog.typekit.com/2014/05/20/source-serif-pro/). I love the entire Source family ([Sans Pro](https://typekit.com/fonts/source-sans-pro), [Code Pro](https://typekit.com/fonts/source-code-pro), and now [Serif Pro](https://typekit.com/fonts/source-serif-pro)) and it's what I use on this site. 
 
 {:.post-image}
-[![Source Serif Pro](/img/posts/source-serif-pro.png)]((/img/posts/source-serif-pro.png)
+[![Source Serif Pro](/img/posts/source-serif-pro.png)](/img/posts/source-serif-pro.png)
 
 
 The blurb on Typekit does a great job of describing the font
