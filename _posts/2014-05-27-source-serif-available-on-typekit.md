@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Source Sans Available on Typekit"
+title:  "Source Serif Pro Available on Typekit"
 date:   2014-05-27 11:28:00
 categories: site
 ---
