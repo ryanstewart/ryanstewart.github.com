@@ -49,6 +49,11 @@ p {
     padding-bottom: .5rem;
 }
 
+blockquote {
+    padding-left: 10px;
+    font-style: italic;
+}
+
 .search {
     display: none;
     background-image: url(/img/iconmonstr-magnifier-icon.svg);
