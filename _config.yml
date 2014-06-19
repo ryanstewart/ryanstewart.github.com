@@ -22,5 +22,5 @@ sitemap:
     priority_name: "priority"
     
 # Gems
-#gems:
-#- jekyll-sitemap
+gems:
+- jekyll-sitemap
