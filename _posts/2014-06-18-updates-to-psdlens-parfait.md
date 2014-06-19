@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Updates to PSD Lens and Parfait"
-date:   2014-06-18 23:39:00
+date:   2014-06-18 20:39:00
 categories: parfait psdlens web
 ---
 Today most of the major updates happened elsewhere and there are some fantastic new releases of Muse and [Dreamweaver](http://blogs.adobe.com/dreamweaver/2014/06/2014-release-of-dreamweaver-cc.html) that have a ton of features for web designers. But last week there were a couple of small things that happened that are worth sharing.
