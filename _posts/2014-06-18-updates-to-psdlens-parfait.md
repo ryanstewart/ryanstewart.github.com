@@ -8,6 +8,7 @@ Today most of the major updates happened elsewhere and there are some fantastic 
 
 One, "[Project Parfait](https://projectparfait.adobe.com/)" added support for relative measurements for font sizes. They've also started adding support for preprocessors and frameworks so you can copy code that works with Sass with Bourbon and LESS and Hat. To use relative measurements you just select the relative measurement you want to use, set a base font, and your fonts will be automatically converted to rems or ems.
 
+{:.center}
 <iframe width="420" height="315" src="//www.youtube.com/embed/6IdgnbAShnI" frameborder="0" allowfullscreen></iframe>
 
 The other thing that happened last week is that my team provided an update on the "PSD Lens"/comp to code tool that NJ showed at MAX last year. I've been working on that project the past couple of months and I'm really excited about sharing more over the next couple of months. The video is below and we've [got a survey](bit.ly/comptocode) where you can sign up for the private beta that we're hoping to roll out soon.

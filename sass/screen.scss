@@ -50,6 +50,12 @@ blockquote {
     font-style: italic;
 }
 
+.center {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
 .search {
     display: none;
     background-image: url(/img/iconmonstr-magnifier-icon.svg);
