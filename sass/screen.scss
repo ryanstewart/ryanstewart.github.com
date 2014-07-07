@@ -42,7 +42,7 @@ h1 {
 }
 
 p {
-    padding-bottom: .5rem;
+    padding-bottom: 1.5rem;
 }
 
 blockquote {
@@ -271,6 +271,7 @@ blockquote {
 
 /* Post */
 .meta {
+    display: block;
     color: $meta-color;
     font-weight: 600;
     font-size: 1.25rem;

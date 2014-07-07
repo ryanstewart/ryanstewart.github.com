@@ -111,7 +111,7 @@ h1 {
 
 /* line 44, ../sass/screen.scss */
 p {
-  padding-bottom: .5rem;
+  padding-bottom: 1.5rem;
 }
 
 /* line 48, ../sass/screen.scss */
@@ -403,6 +403,7 @@ blockquote {
 /* Post */
 /* line 273, ../sass/screen.scss */
 .meta {
+  display: block;
   color: #a99e89;
   font-weight: 600;
   font-size: 1.25rem;
@@ -410,23 +411,23 @@ blockquote {
   line-height: 2rem;
 }
 
-/* line 281, ../sass/screen.scss */
+/* line 282, ../sass/screen.scss */
 .post-header {
   padding-bottom: 1rem;
 }
 
-/* line 285, ../sass/screen.scss */
+/* line 286, ../sass/screen.scss */
 .post-image {
   text-align: center;
   width: 100%;
 }
-/* line 288, ../sass/screen.scss */
+/* line 289, ../sass/screen.scss */
 .post-image img {
   width: 80%;
 }
 
 /** SVG ICons **/
-/* line 294, ../sass/screen.scss */
+/* line 295, ../sass/screen.scss */
 .icon {
   vertical-align: middle;
   fill: #efefef;
@@ -439,7 +440,7 @@ blockquote {
   padding-top: 1rem;
 }
 @media screen and (min-width: 480px) {
-  /* line 294, ../sass/screen.scss */
+  /* line 295, ../sass/screen.scss */
   .icon {
     -webkit-transform: scale(1, 1);
     -moz-transform: scale(1, 1);

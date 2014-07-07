@@ -5,14 +5,14 @@ layout: default
 
   <header class="post-header">
     <h1>{{ page.title }}</h1>
-    <p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-    <p class="meta">Posted in {{ page.categories | array_to_sentence_string }}</p>
+    <span class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.meta %} • {{ page.meta }}{% endif %}</span>
+    <span class="meta">Posted in {{ page.categories | array_to_sentence_string }}</span>
   </header>
 
   <article class="post-content">
   {{ content }}
   </article>
   
-  <p class="meta">By Ryan Stewart</p>
+  <span class="meta">By Ryan Stewart</p>
 
 </div>
